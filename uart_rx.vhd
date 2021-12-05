@@ -139,10 +139,8 @@ begin
 					
 						clk_count_next <= clk_count_present + 1;
 						if (clk_count_present = CLKS_PER_HALF_BIT +2) then
-							-- COLLECT A SAMPLE AT START OF NEXT BIT (COUNT AT 53)
 							samples_collected(0) <= rx;
 						elsif (clk_count_present = CLKS_PER_BIT) then
-							-- COLLECT A SAMPLE BEFORE END OF BIT (COUNT AT 103)
 							samples_collected(1) <= rx;
 						end if;
 					else 
