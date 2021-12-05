@@ -93,7 +93,6 @@ architecture Behavioral of UART_TX_RX is
 	end component;
 	
 	signal s_tx_to_rx: STD_LOGIC;
-	signal s_error: STD_LOGIC;
 	
 	
 
