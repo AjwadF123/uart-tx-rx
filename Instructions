@@ -1,0 +1,2 @@
+- You can change Frequency and Baud Rate as desired.
+- Make sure to change time period of clk in test bench. (For example: 1 Mhz clock = 1 us time period)
