@@ -1,21 +1,10 @@
 ----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
--- 
+
 -- Create Date:    10:06:31 12/04/2021 
 -- Design Name: 
 -- Module Name:    uart_tx - Behavioral 
 -- Project Name: 
--- Target Devices: 
--- Tool versions: 
--- Description: 
---
--- Dependencies: 
---
--- Revision: 
--- Revision 0.01 - File Created
--- Additional Comments: 
---
+
 ----------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
@@ -24,9 +13,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 -- arithmetic functions with Signed or Unsigned values
 use IEEE.NUMERIC_STD.ALL;
 
--- Uncomment the following library declaration if instantiating
--- any Xilinx primitives in this code.
---library UNISIM;
+
 --use UNISIM.VComponents.all;
 
 entity uart_tx is
