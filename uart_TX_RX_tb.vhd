@@ -1,15 +1,7 @@
 --------------------------------------------------------------------------------
--- Company: 
--- Engineer:
---
+
 -- Create Date:   10:58:10 12/05/2021
--- Design Name:   
--- Module Name:   D:/XilinxProjects/UART_TX_RX_tb.vhd
--- Project Name:  uart_tx
--- Target Device:  
--- Tool versions:  
--- Description:   
--- 
+-- Project Name:  uart_tx  
 
 --------------------------------------------------------------------------------
 LIBRARY ieee;
